@@ -1,0 +1,81 @@
+﻿# === Notebook-related ===
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+*.output.ipynb
+
+
+# === Colab auto-generated files ===
+*.pyc
+__pycache__/
+*.swp
+*.bak
+
+
+# === Large files and model outputs ===
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.joblib
+*.pkl
+*.pickle
+*.npy
+*.npz
+
+
+# === Data files ===
+*.csv
+*.tsv
+*.xlsx
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.parquet
+*.jsonl
+
+
+# === Images, videos, and audio ===
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.mp4
+*.mp3
+*.wav
+
+
+# === Logs and run artifacts ===
+*.log
+*.out
+*.err
+logs/
+runs/
+wandb/
+checkpoints/
+
+
+# === Google Drive sync artifacts ===
+desktop.ini
+.DS_Store
+Thumbs.db
+
+
+# === Project backup or snapshot folders ===
+my_project_snapshots/
+my_project_versions/
+my_project_code_only/
+
+
+# === Environment & editor-specific ===
+.env
+.venv/
+*.env
+*.secret
+.vscode/
+.idea/
+*.code-workspace
